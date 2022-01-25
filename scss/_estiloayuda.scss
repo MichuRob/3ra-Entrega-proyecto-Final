@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.formulario {
+    position: relative;
+    padding-right: 250px;
+    padding-left: 200px;
+    margin-block-end: 35px;
+    margin-top: 1.5rem;
+    justify-content: center;
+}
+
+.footer__root{
+    margin-top: 2rem;
+    margin-block-end: 1rem;
+}

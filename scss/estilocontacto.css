@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.mapa {
+  display: inline-block;
+  padding-left: 200PX;
+  margin-top: 10PX;
+  -webkit-margin-after: 45px;
+          margin-block-end: 45px;
+}
+
+.iconos {
+  margin-top: 6%;
+  margin-left: 4%;
+  display: inline-block;
+  position: absolute;
+}
+
+.icono1 {
+  display: inline-block;
+}
+
+.icono2 {
+  display: inline-block;
+}
+
+.icono3 {
+  display: inline-block;
+}
+
+i {
+  margin-left: 30%;
+}
+
+.descripcióna {
+  display: inline-block;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contacto-heading__info-icon {
+  margin-left: 30%;
+}
+
+.contacto-heading__info-icon {
+  font-size: 0.875rem;
+  color: black;
+  line-height: 48px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 0.75rem;
+  display: block;
+  border: 1px solid #0000;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=estilocontacto.css.map */

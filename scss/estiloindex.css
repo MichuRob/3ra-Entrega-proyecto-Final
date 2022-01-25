@@ -1,0 +1,345 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.formulario {
+  position: relative;
+  padding-right: 250px;
+  padding-left: 200px;
+  -webkit-margin-after: 35px;
+          margin-block-end: 35px;
+  margin-top: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__root {
+  margin-top: 2rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+.mapa {
+  display: inline-block;
+  padding-left: 200PX;
+  margin-top: 10PX;
+  -webkit-margin-after: 45px;
+          margin-block-end: 45px;
+}
+
+.iconos {
+  margin-top: 6%;
+  margin-left: 4%;
+  display: inline-block;
+  position: absolute;
+}
+
+.icono1 {
+  display: inline-block;
+}
+
+.icono2 {
+  display: inline-block;
+}
+
+.icono3 {
+  display: inline-block;
+}
+
+i {
+  margin-left: 30%;
+}
+
+.descripcióna {
+  display: inline-block;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contacto-heading__info-icon {
+  margin-left: 30%;
+}
+
+.contacto-heading__info-icon {
+  font-size: 0.875rem;
+  color: black;
+  line-height: 48px;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 0.75rem;
+  display: block;
+  border: 1px solid #0000;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+p {
+  margin-top: 3rem;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 10%;
+}
+
+.gallery-container {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 90px;
+  margin-right: 25px;
+  position: relative;
+  display: grid;
+}
+
+.productos {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto1 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto2 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto3 {
+  position: relative;
+  vertical-align: small;
+  display: inline-block;
+}
+
+.producto4 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.producto5 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 70px;
+}
+
+.producto6 {
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  padding-left: 80px;
+  padding-right: -10;
+}
+
+.product-block__brand {
+  color: grey;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: -ms-grid;
+  display: grid;
+  font-size: 17px;
+  margin-bottom: 0px;
+  padding-left: 0%;
+  text-align: center;
+}
+
+.producto-block__price {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+  font-size: 1.65rem;
+  color: grey;
+  font-weight: 500;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 0.875rem;
+}
+
+.product-block__sku {
+  color: grey;
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.button {
+  max-width: 85%;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1rem;
+  padding: 0.85em 1em;
+  border: 1px solid transparent;
+  border-radius: 0;
+  font-size: .9rem;
+  line-height: 1;
+  text-align: center;
+  color: #fefefe;
+  border: blue;
+}
+
+.button.bordered {
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+}
+
+.button.circular {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  border-radius: 9999px;
+}
+
+.button.small {
+  padding-top: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+element.style {
+  float: left;
+  margin-left: 20%;
+}
+
+.button.blue.bordered {
+  border-color: #617ce8 !important;
+}
+
+.button.blue.bordered {
+  color: #024964;
+  border-color: #024964;
+  background: transparent;
+}
+
+.button.blue {
+  /* color: rgba(255, 255, 255, .75); */
+  color: #FFFFFF;
+  background: #6b8dde;
+}
+
+.button.circular {
+  padding-right: 1.875rem;
+  padding-left: 1.875rem;
+  border-radius: 9999px;
+}
+
+.button.bordered {
+  border-width: 2px;
+  border-style: solid;
+  background: transparent;
+}
+
+.button.small {
+  padding-top: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+}
+
+.button.small {
+  font-size: .75rem;
+}
+
+span {
+  color: #989898;
+  font-size: 14px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contenido {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.carrusel {
+  margin-top: 0.1rem;
+}
+
+.contenedor__cards {
+  margin-top: 1rem;
+}
+
+.footer__root {
+  margin-top: 1.5rem;
+  font-size: 1em;
+}
+/*# sourceMappingURL=estiloindex.css.map */
