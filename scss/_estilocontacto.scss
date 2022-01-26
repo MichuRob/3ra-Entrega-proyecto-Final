@@ -6,18 +6,33 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+}
 
+.contenido{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration-color: white;
+    display: grid;
+}
+.contenedor li:hover {
+    color: #fcfcfc;
+    font-weight: bold;
+  }
+
+.navbar{
+    text-align: center;
+    justify-content: center;
 }
 
 .mapa{
     display: inline-block;
     padding-left: 200PX;
-    margin-top: 10PX;
+    margin-top: 6rem;
     margin-block-end: 45px;
 }
 
 .iconos{
-    margin-top: 6%;
+    margin-top: 7rem;
     margin-left: 4%;
     display: inline-block;
     position: absolute;
@@ -40,19 +55,31 @@ i{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .contacto-heading__info-icon{
     margin-left: 30%;
 }
 
-.contacto-heading__info-icon {
+.contacto-heading__info-icon{
     font-size: 0.875rem;
     color: black;
     line-height: 48px;
     width: 50px;
     height: 50px;
     margin: 0 auto 0.75rem;
-    display: block;
+    display: grid;
     border: 1px solid #0000;
     border-radius: 50px;
     background: rgba(0,0,0,.1);
+}
+
+.footer__root{
+    margin-top: 1.5rem;
+    font-size: 1em;
+    color: black;
+}
+
+.footer__root li:hover{
+    color: black;
+    font-weight: bold;
 }

@@ -9,9 +9,27 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
+.contenido{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration-color: white;
+  display: grid;
+}
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+.collapse{
+  text-align: center;
+  justify-content: center;
+  padding-right: 5rem;
+}
 
+img{
+  margin-top: 0.1rem;
+}
 p {
-  margin-top: 3rem;
+  margin-top: 0.1rem;
   margin-left: 50px;
   margin-right: 50px;
   color: black;
@@ -22,5 +40,16 @@ p {
   text-align: center;
   display: -ms-grid;
   display: grid;
+}
+
+.footer__root{
+  margin-top: 1.5rem;
+  font-size: 1em;
+  color: black;
+  margin-block-end:2rem;
+}
+.footer__root li:hover{
+  color: black;
+  font-weight: bold;
 }
 /*# sourceMappingURL=estilonosotros.css.map */

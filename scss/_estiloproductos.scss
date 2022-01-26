@@ -7,6 +7,21 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
 }
+.contenido{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    text-decoration-color: white;
+    display: grid;
+}
+.contenedor li:hover {
+    color: #fcfcfc;
+    font-weight: bold;
+}
+.collapse{
+    text-align: center;
+    justify-content: center;
+    padding-right: 5rem;
+}
 main{
     display: grid;
     margin-top: 10%;
@@ -16,6 +31,7 @@ main{
     display: grid;
     margin-left: 90px;
     margin-right: 25px;
+    margin-top: 1rem;
     position: relative;
     display: grid;
 }
@@ -169,4 +185,14 @@ element.style {
 span{
     color: #989898;
     font-size: 14px;
+}
+
+.footer__root{
+    margin-top: 1.5rem;
+    font-size: 1em;
+    color: black;
+}
+.footer__root li:hover{
+    color: black;
+    font-weight: bold;
 }

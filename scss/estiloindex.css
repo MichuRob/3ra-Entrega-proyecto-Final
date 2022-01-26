@@ -11,6 +11,28 @@ body {
   color: white;
 }
 
+.contenido {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.collapse {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5rem;
+}
+
 .formulario {
   position: relative;
   padding-right: 250px;
@@ -29,6 +51,11 @@ body {
           margin-block-end: 1rem;
 }
 
+.footer__root li:hover {
+  color: black;
+  font-weight: bold;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -41,16 +68,37 @@ body {
   color: white;
 }
 
+.contenido {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.navbar {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .mapa {
   display: inline-block;
   padding-left: 200PX;
-  margin-top: 10PX;
+  margin-top: 6rem;
   -webkit-margin-after: 45px;
           margin-block-end: 45px;
 }
 
 .iconos {
-  margin-top: 6%;
+  margin-top: 7rem;
   margin-left: 4%;
   display: inline-block;
   position: absolute;
@@ -89,10 +137,22 @@ i {
   width: 50px;
   height: 50px;
   margin: 0 auto 0.75rem;
-  display: block;
+  display: -ms-grid;
+  display: grid;
   border: 1px solid #0000;
   border-radius: 50px;
   background: rgba(0, 0, 0, 0.1);
+}
+
+.footer__root {
+  margin-top: 1.5rem;
+  font-size: 1em;
+  color: black;
+}
+
+.footer__root li:hover {
+  color: black;
+  font-weight: bold;
 }
 
 * {
@@ -105,6 +165,28 @@ i {
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
+}
+
+.contenido {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.collapse {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5rem;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
 }
 
 p {
@@ -121,6 +203,17 @@ p {
   display: grid;
 }
 
+.footer__root {
+  margin-top: 1.5rem;
+  font-size: 1em;
+  color: black;
+}
+
+.footer__root li:hover {
+  color: black;
+  font-weight: bold;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -131,6 +224,28 @@ p {
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
+}
+
+.contenido {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.collapse {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5rem;
 }
 
 main {
@@ -144,6 +259,7 @@ main {
   display: grid;
   margin-left: 90px;
   margin-right: 25px;
+  margin-top: 1rem;
   position: relative;
   display: grid;
 }
@@ -318,6 +434,17 @@ span {
   font-size: 14px;
 }
 
+.footer__root {
+  margin-top: 1.5rem;
+  font-size: 1em;
+  color: black;
+}
+
+.footer__root li:hover {
+  color: black;
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -325,9 +452,30 @@ span {
           box-sizing: border-box;
 }
 
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .contenido {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1rem;
+  -webkit-text-decoration-color: white;
+          text-decoration-color: white;
+  display: -ms-grid;
+  display: grid;
+}
+
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+
+.collapse {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 5rem;
 }
 
 .carrusel {
@@ -336,10 +484,18 @@ span {
 
 .contenedor__cards {
   margin-top: 1rem;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 
 .footer__root {
   margin-top: 1.5rem;
   font-size: 1em;
+  color: black;
+}
+
+.footer__root li:hover {
+  color: black;
+  font-weight: bold;
 }
 /*# sourceMappingURL=estiloindex.css.map */

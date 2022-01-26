@@ -10,10 +10,26 @@ body {
   color: white;
 }
 
+.contenido{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1rem;
+  text-decoration-color: white;
+  display: grid;
+}
+.contenedor li:hover {
+  color: #fcfcfc;
+  font-weight: bold;
+}
+.collapse{
+  text-align: center;
+  justify-content: center;
+  padding-right: 5rem;
+}
+
 .formulario {
-  position: relative;
-  padding-right: 250px;
-  padding-left: 200px;
+  position: center;
+  padding-right: 220px;
+  padding-left: 230px;
   -webkit-margin-after: 35px;
           margin-block-end: 35px;
   margin-top: 1.5rem;
@@ -26,5 +42,10 @@ body {
   margin-top: 2rem;
   -webkit-margin-after: 1rem;
           margin-block-end: 1rem;
+}
+
+.footer__root li:hover{
+  color: black;
+  font-weight: bold;
 }
 /*# sourceMappingURL=estiloayuda.css.map */

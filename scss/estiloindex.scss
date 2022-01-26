@@ -4,23 +4,46 @@
 @import "estilonosotros";
 @import "estiloproductos";
 
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .contenido{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1rem;
-}
+    text-decoration-color: white;
+    display: grid;
+  }
+  .contenedor li:hover {
+    color: #fcfcfc;
+    font-weight: bold;
+  }
+  .collapse{
+    text-align: center;
+    justify-content: center;
+    padding-right: 5rem;
+  }
 .carrusel{
     margin-top: 0.1rem;
 }
+
 .contenedor__cards{
     margin-top: 1rem;
+    padding-left: 0%;
+    padding-right: 0%;
 }
+
 .footer__root{
     margin-top: 1.5rem;
     font-size: 1em;
+    color: black;
 }
+.footer__root li:hover{
+    color: black;
+    font-weight: bold;
+  }
